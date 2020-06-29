@@ -23,7 +23,7 @@ env:
   PROJECT_ID: ${{ secrets.GKE_PROJECT }}
   GKE_CLUSTER: gke-cluster 
   GKE_ZONE: us-central1-c 
-  IMAGE: static-site
+  IMAGE: kunwar-image
 
 jobs:
   setup-build-publish-deploy:
